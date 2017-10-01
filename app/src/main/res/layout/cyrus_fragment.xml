@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Cyrus Vatandoost"
+        android:text="Cyrus Vatandoost"
         android:textSize="18dp"
         android:id="@+id/about_cyrus"
         android:textStyle="bold"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:textSize="16dp"
         android:id="@+id/birthdate"
-        android:text="@string/December 22, 1997"
+        android:text="December 22, 1997"
         android:layout_alignStart="@id/about_cyrus"
         android:layout_below="@id/about_cyrus"/>
 
