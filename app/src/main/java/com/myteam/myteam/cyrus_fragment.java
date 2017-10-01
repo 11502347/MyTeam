@@ -23,15 +23,7 @@ public class cyrus_fragment extends Fragment
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.cyrus_fragment,container,false);
 
-        btnCyrus = (Button) view.findViewById(R.id.cyrus_button);
 
-        btnCyrus.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view)
-            {
-                Toast.makeText(getActivity(), "Cyrus", Toast.LENGTH_SHORT).show();
-            }
-        });
 
         return view;
 

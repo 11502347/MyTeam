@@ -8,15 +8,65 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="About Team"
+        android:text="About Core Values"
+        android:textStyle="bold"
+        android:textSize="20dp"
         android:layout_marginTop="40dp"
         android:id="@+id/about_team"/>
-    
-    
-    <Button
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/passion"
+        android:layout_below="@id/about_team"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/passion_pic"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/quality"
+        android:layout_below="@id/about_team"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/quality_pic"/>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/team_button"
-        android:text="Team"/>
+        android:text="Passion"
+        android:layout_below="@id/passion_pic"
+        android:layout_alignStart="@id/passion_pic"
+        android:layout_marginLeft="18dp"
+        android:textSize="18dp"
+        android:id="@+id/passion_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quality"
+        android:layout_below="@id/quality_pic"
+        android:layout_alignEnd="@id/quality_pic"
+        android:layout_marginRight="23dp"
+        android:textSize="18dp"
+        android:id="@+id/quality_text"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/passion_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:text="When it comes to developing software, we highly value making them with passion and quality."
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
 
 </RelativeLayout>

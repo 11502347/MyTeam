@@ -23,15 +23,7 @@ public class team_fragment extends Fragment
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.team_fragment,container,false);
 
-        btnTeam = (Button) view.findViewById(R.id.team_button);
 
-        btnTeam.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view)
-            {
-                Toast.makeText(getActivity(), "Team", Toast.LENGTH_SHORT).show();
-            }
-        });
 
         return view;
 
