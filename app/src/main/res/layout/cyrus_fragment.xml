@@ -7,7 +7,7 @@
     <ImageView
         android:layout_width="120dp"
         android:layout_height="105dp"
-        android:src="@drawable/rgee"
+        android:src="@drawable/cyrus"
         android:id="@+id/profile_pic"
         android:layout_marginTop="29dp"
 
@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cyrus Vatandoost"
+        android:text="@string/Cyrus Vatandoost"
         android:textSize="18dp"
         android:id="@+id/about_cyrus"
         android:textStyle="bold"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:textSize="16dp"
         android:id="@+id/birthdate"
-        android:text="December 22, 1997"
+        android:text="@string/December 22, 1997"
         android:layout_alignStart="@id/about_cyrus"
         android:layout_below="@id/about_cyrus"/>
 
@@ -122,25 +122,25 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Chance the Rapper" />
+                android:text="Pink Guy" />
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Donald Glover" />
+                android:text="joji" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kendrick Lamar" />
+                android:text="Marshmello" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ed Sheeran" />
+                android:text="The White Stripes" />
         </LinearLayout>
     </ScrollView>
 
